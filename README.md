@@ -33,6 +33,7 @@ these softwares are for manual, local installation & configuration
 - **benc**: b-encoding and -decoding.
 - **torn**: parsing and rendering of torrent files & magnet links.
 - **word**: kjv structured for easy lookup.
+- **otp**: one-time password (rfc4226, rfc6238) utilities.
 - **ppm**: mark and utilities for using `.ppm` image files.
 - **pal**: miscellaneous bits and pieces.
 
