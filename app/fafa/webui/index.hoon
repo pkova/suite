@@ -153,7 +153,7 @@
           ==
           ;div#status.disabled;
           ;div#factors
-            ;*  (turn ~(tap by keys) render-factor)
+            ;*  (turn (sort ~(tap by keys) aor) render-factor)
             ;a.factor(href "/fafa/add"):"+"
             ;a.factor(href "/fafa/mod"):"•••"
           ==

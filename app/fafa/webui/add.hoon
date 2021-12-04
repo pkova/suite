@@ -7,6 +7,7 @@
 ++  argue
   |=  [headers=header-list:http body=(unit octs)]
   ^-  (unit action)
+  ~&  [%body body]
   ?~  body  ~
   =/  args=(map @t @t)
     %-  ~(gas by *(map @t @t))
