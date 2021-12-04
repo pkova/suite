@@ -145,6 +145,7 @@
         `state(keys (~(del by keys) label.u.act))
       ::
           %mov
+        ?:  =(old new):u.act  `state
         ?.  (~(has by keys) old.u.act)
           [`'unknown account' state]
         ?:  (~(has by keys) new.u.act)

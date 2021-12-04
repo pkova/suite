@@ -191,7 +191,8 @@
               ;h1:"fafa authenticator"
             ==
           ==
-          ;div#status.disabled;
+          ;+  ?~  msg  ;div#status.disabled;
+              ;div#status:"{(trip +.u.msg)}"
           ;div#entry
             ;div#scanner
               ;video#cam(width "100%", height "auto", autoplay "");
