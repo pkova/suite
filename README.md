@@ -7,6 +7,7 @@ these softwares can be installed from ~paldev as landscape tiles
 
 - **pals**: friendlist, for manual peer discovery.
 - **face**: see your pals.
+- **fafa**: 2fa otp authenticator.
 - **cliff**: filesystem explorer & editor.
 - **picture**: a picture frame for the homescreen.
 - **verse**: daily random bible verse for the homescreen.
