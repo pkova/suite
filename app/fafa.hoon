@@ -75,7 +75,6 @@
   ::TODO  these want specific headers, so we can't use the webpage pattern ):
   ?:  =(%tile page)
     :_  state
-    ~&  %tile
     ?.  =(%'GET' method.request.inbound-request)
       [[405 ~] ~]
     ^~  ^-  simple-payload:http

@@ -12,7 +12,6 @@
     %-  ~(gas by *(map @t @t))
     (fall (rush q.u.body yquy:de-purl:html) ~)
   ::
-  =.  args  (~(put by args) 'uri' 'otpauth://totp/NiceHash:nicehash@fang.io?secret=LKSYSPGMO3A5P6S6&issuer=NiceHash&algorithm=SHA1&digits=6&period=30')
   ?:  (~(has by args) 'uri')
     =-  ~&  [%uri (~(got by args) 'uri') -]  -
     %+  rush  (~(got by args) 'uri')
@@ -146,7 +145,7 @@
         cam.srcObject = stream;
       });
 
-      setTimeout(() => setInterval(detect, 1000), 1000);
+      setTimeout(() => setInterval(detect, 1000), 2000);
     }
 
     function toggleInput() {
@@ -198,7 +197,7 @@
               ;video#cam(width "100%", height "auto", autoplay "");
               ;button(onclick "toggleInput()"):"input manually"
               ;form#scannerform.disabled(method "post")
-                ;input#uri(name "uri", type "text", disabled "");
+                ;input#uri(name "uri", type "text", readonly "");
               ==
             ==
             ;div#manual.disabled
